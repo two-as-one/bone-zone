@@ -13,6 +13,10 @@ module.exports = {
         test: /\.ya?ml$/,
         use: "yaml-loader",
       },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/,
+        loader: "file-loader",
+      },
     ],
   },
 
